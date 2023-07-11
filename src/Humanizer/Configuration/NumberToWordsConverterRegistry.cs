@@ -13,6 +13,7 @@ namespace Humanizer.Configuration
             Register("cs", (culture) => new CzechNumberToWordsConverter(culture));
             Register("fa", new FarsiNumberToWordsConverter());
             Register("es", new SpanishNumberToWordsConverter());
+            Register("ca-ES", new CatalanNumberToWordsConverter());
             Register("pl", (culture) => new PolishNumberToWordsConverter(culture));
             Register("pt", new PortugueseNumberToWordsConverter());
             Register("pt-BR", new BrazilianPortugueseNumberToWordsConverter());
